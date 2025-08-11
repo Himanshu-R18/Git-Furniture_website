@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="items" onclick='location.href="index.html"'>Home</div>
+    <div class="items" onclick='location.href="category.html"'>Category</div>
+    <div class="items" onclick='location.href="contact.html"'>Contact</div>
+    <div class="items" onclick='location.href="about.html"'>About Us</div>
+    <div class="items" onclick='location.href="Login.html"'>Login</div>
+  </nav>
+  <div class="login_box">
+    <div class="box_button">
+      <button id="box_login" aria-checked="true" name="accept">Log-in</button>
+      <button id="box_register" name="accept" onclick='location.href="unavailable.html"'>Register</button>
+    </div>
+    <div class="l_form">
+      <form class="l_mainform">
+        <div class="l_div1">
+          <label for="l_username" id="l_label1">Username</label><br>
+        <input type="text" id="l_username"><br>
+        </div>
+        <div class="l_div2">
+          <label for="l_password" id="l_label2">Password</label><br>
+          <input type="password" id="l_password">
+          <i></i><br>
+        </div>
+        <div class="l_div3">
+          <a href="/unavailable.html" id="l_a" onclick='location.href="unavailable.html"'>Forgot Password</a><br>
+        </div>
+        <div class="l_div4">
+          <input type="submit" id="l_submit" value="Login"><br>
+        </div>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
